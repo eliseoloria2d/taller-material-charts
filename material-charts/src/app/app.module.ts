@@ -15,6 +15,11 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatCardModule} from '@angular/material/card';
 import { PrincipalComponent } from './principal/principal.component';
 
+import {MatTableModule} from '@angular/material/table';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatPaginatorModule } from '@angular/material';
+import {MatInputModule} from '@angular/material';
+
 
 
 
@@ -34,7 +39,11 @@ import { PrincipalComponent } from './principal/principal.component';
     MatToolbarModule,
     MatSnackBarModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatPaginatorModule,
+    MatInputModule
 
   ],
   providers: [],
